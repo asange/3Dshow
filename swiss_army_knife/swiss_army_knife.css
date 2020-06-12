@@ -33,5 +33,30 @@ body {
     background-image: url('media/fullscreen_close.svg');
 }
 
+.v3d-annotation{
+    width: 20px;
+    height: 20px;
+    min-width: 0px;
+    padding: 0px;
+    font-size: 0px;
+    border: none;
+    background-image: url("image/info.svg");
+    background-color: white;
+}
+
+.v3d-annotation-dialog{
+    background-color: white;
+    color: black;
+    min-width: 0px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.v3d-annotation-transparent{
+    background-color: gray;
+    opacity: 0.2;
+}
+
 /* removes tap blinking on ios devices */
 * { -webkit-tap-highlight-color:rgba(0,0,0,0); }
